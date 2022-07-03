@@ -1,0 +1,64 @@
+label {
+ display: block;
+ margin: .5rem 100px;
+}
+
+html {
+ height: 100%;
+ width: 100%;
+ background: linear-gradient(rgb(72,0,72,0.6), rgb(4,2,94,0.6)), url(GymBackground.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+body {
+ font-size: 1.5rem;
+ font-family: 'Poppins', sans-serif;
+ padding: 200px;
+ color:aliceblue;
+ overflow-y: hidden;
+}
+
+fieldset {
+ border: none;
+ 
+}
+
+textarea {
+ display: block;
+}
+
+form {
+ padding: 1rem;
+ border-radius: .25rem;
+ box-sizing: border-box;
+ background: rgba(8, 8, 19, 0.9);
+}
+
+.Intro {
+ text-align: center;
+}
+
+#name, #email, #number {
+ display: block;
+ width: 400px;
+ border-radius: 5px;
+ margin: .5rem 0 0 0;
+}
+
+#How {
+ margin: 0 0 1.5rem 100px;
+}
+
+#submit {
+ display: block;
+ width: 40%;
+ margin: 40px auto;
+ height: 2em;
+ font-size: 1.1rem;
+ background-color: #ffffff;
+ min-width: 300px;
+ border-radius: 5px;
+ font-weight: 600;
+}

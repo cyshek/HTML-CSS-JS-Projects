@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Survey Form </title>
+ <link rel="stylesheet" type="text/css" href="Survey Styles.css"/>
+</head>
+<body>
+  <div class="Intro">
+ <h1 id="title"> Gym Survey </h1>
+ <p id="description"> <em>Please fill out this short survey about our gym</em></p>
+  </div>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label"> Full Name: <input id="name" type="text" placeholder="Full name" required>
+    </label>
+    <label id="email-label"> Email: <input id="email" type="email" placeholder="Email address" required></label>
+    <label id="number-label"> Age: <input id="number" type="number" min="21" max="100" placeholder="Age"></label>
+    </fieldset>
+    <fieldset>
+    <label id="How"> How did you hear about us? 
+     <select id="dropdown">
+      <option value=""> Select One </option>
+      <option value="1"> Through an ad </option>
+      <option value="2"> Through an event </option>
+     </select>
+    </label>
+    <label id="Would"> Would you recommend this gym to a friend? </label>
+     <label><input type="radio" name="recommendations" value="Yes"/> Absolutely </label>
+     <label><input type="radio" name="recommendations" value="Maybe"/> Maybe </label>
+     <label><input type="radio" name="recommendations" value="No"/> Nope </label>
+     </fieldset>
+     <fieldset>
+     <label id="What"> What would you like to see improved? (Check all that apply) </label>
+      <label><input type="checkbox" value="1a" > Upgraded Equipment</label>
+      <label><input type="checkbox" value="2a" > Better AC system</label>
+      <label><input type="checkbox" value="3a" > More fitness classes</label>
+      <label><input type="checkbox" value="4a" > More weights</label>
+     </fieldset>
+     <fieldset>
+      <label id="Suggestions"> Any comments or suggestions? 
+       <textarea rows="3" cols="40" placeholder="Please don't be too harsh :D"></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit"/>
+     </fieldset>
+  </form>
+ </body>
+</html>
